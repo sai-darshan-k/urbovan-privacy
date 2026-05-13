@@ -89,7 +89,7 @@
   <h1 class="doc-title">Privacy Policy</h1>
   <h2 class="doc-subtitle">UrbOVan – Plant Health Tracker</h2>
   <p class="meta">Effective Date: May 13, 2025</p>
-  <p class="meta">Last Updated: May 13, 2025</p>
+  <p class="meta">Last Updated: May 13, 2026</p>
 
   <hr/>
 
@@ -105,16 +105,28 @@
   <h3 class="sub-heading">2.1 Personal Information</h3>
   <p>We collect the following personal information when you register an account or use the App:</p>
   <ul>
-    <li><strong>Full Name:</strong> Collected during account registration to identify you within the App.</li>
+    <li><strong>Full Name:</strong> Collected during profile setup to personalise your in-app experience.</li>
     <li><strong>Email Address:</strong> Used for account creation, login authentication, and communications.</li>
-    <li><strong>Phone Number:</strong> Used for account verification and security purposes.</li>
+    <li><strong>Phone Number (optional):</strong> Voluntarily provided as part of your profile. Not required to use the App and not used for authentication.</li>
+    <li><strong>City / Location Details:</strong> Voluntarily provided to give region-specific plant care recommendations.</li>
   </ul>
 
   <h3 class="sub-heading">2.2 Device Permissions</h3>
   <p>To provide core functionality, the App requests the following device permissions:</p>
   <ul>
-    <li><strong>Camera Access:</strong> The App accesses your device camera to allow you to photograph your plants for health analysis, diagnosis, and monitoring within the App.</li>
-    <li><strong>Location Data:</strong> The App collects your geographic location to tag plant locations and provide region-specific or climate-based plant care recommendations.</li>
+    <li><strong>Camera Access:</strong> Used to photograph your plants for AI-powered health analysis and diagnosis.</li>
+    <li><strong>Photo Library:</strong> Used to select existing photos for plant analysis and to save generated plant previews.</li>
+    <li><strong>Precise Location:</strong> Used to determine local weather, season, and sunlight direction to provide accurate plant care recommendations.</li>
+    <li><strong>Motion Sensors (Compass):</strong> Used to detect the direction your balcony or window faces for sunlight-based recommendations.</li>
+    <li><strong>Push Notifications:</strong> Used to send watering reminders and plant care alerts. A device notification token is collected by Firebase Cloud Messaging solely for this purpose.</li>
+  </ul>
+
+  <h3 class="sub-heading">2.3 Automatically Collected Data</h3>
+  <p>When you use the App, the following data may be collected automatically:</p>
+  <ul>
+    <li><strong>Advertising Identifier (Advertising ID / GAID):</strong> Collected by Firebase Analytics for app usage analytics and measurement. This identifier is not used for targeted advertising.</li>
+    <li><strong>App Usage and Interaction Data:</strong> Firebase Analytics collects information about features used, screens viewed, and session activity to help us improve the App.</li>
+    <li><strong>Device Information:</strong> Device type, operating system version, and app version collected for diagnostic and compatibility purposes.</li>
   </ul>
 
   <h2 class="section-heading">3. How We Use Your Information</h2>
@@ -131,9 +143,15 @@
   <h2 class="section-heading">4. Disclosure and Sharing of Information</h2>
   <p>We do not sell, rent, or trade your personal information to any third parties. We may share your data only under the following limited circumstances:</p>
   <ul>
-    <li><strong>Service Providers:</strong> Trusted third-party vendors who assist in operating the App (e.g., cloud hosting, analytics) under strict data confidentiality agreements.</li>
     <li><strong>Legal Compliance:</strong> When required by applicable law, regulation, court order, or governmental authority.</li>
     <li><strong>Protection of Rights:</strong> To protect the rights, property, or safety of UrbOVan, its users, or the public.</li>
+  </ul>
+
+  <h3 class="sub-heading">4.1 Third-Party Services</h3>
+  <p>The App integrates the following third-party services that may collect or process your data under their own privacy policies:</p>
+  <ul>
+    <li><strong>Google Firebase (Authentication, Firestore, Storage, Cloud Messaging, Analytics):</strong> Used for user authentication, cloud data storage, image storage, push notifications, and app analytics. Data is processed by Google LLC. See <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</li>
+    <li><strong>Google Gemini API:</strong> Plant photos and descriptive data you submit for diagnosis or space analysis are sent to Google's Gemini AI API for processing. No personally identifiable information beyond the image content is transmitted. See <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</li>
   </ul>
 
   <h2 class="section-heading">5. Data Retention</h2>
@@ -156,23 +174,49 @@
     <li><strong>Right to Lodge a Complaint:</strong> File a complaint with the relevant data protection authority in your jurisdiction.</li>
   </ul>
 
-  <h2 class="section-heading">8. Children's Privacy</h2>
+  <h2 class="section-heading">8. Account and Data Deletion</h2>
+  <p>
+    You have the right to request the permanent deletion of your UrbOVan account and all associated personal data at any time. We provide two ways to submit a deletion request:
+  </p>
+  <h3 class="sub-heading">8.1 In-App Deletion Request</h3>
+  <p>
+    Open the UrbOVan app, navigate to <strong>Profile → Delete Account</strong>, and follow the on-screen steps. This will generate a pre-filled deletion request email sent directly to our support team.
+  </p>
+  <h3 class="sub-heading">8.2 Email Request</h3>
+  <p>
+    You may also send a deletion request directly to <a href="mailto:saidarshan9569@gmail.com">saidarshan9569@gmail.com</a> with the subject line <em>"Account Deletion Request – UrbOVan"</em>. Please include your registered email address and, if available, your account user ID so we can locate your account promptly.
+  </p>
+  <h3 class="sub-heading">8.3 What Gets Deleted</h3>
+  <p>Upon processing your request, the following data will be permanently deleted:</p>
+  <ul>
+    <li>Your account credentials and profile information (name, email, phone number, city, etc.)</li>
+    <li>All plant records and associated health logs</li>
+    <li>All chat history with the Flora AI assistant</li>
+    <li>All space analysis records</li>
+    <li>All photos and images uploaded to the App</li>
+  </ul>
+  <h3 class="sub-heading">8.4 Processing Time and Retention</h3>
+  <p>
+    We will process all deletion requests within <strong>30 days</strong> of receipt and send a confirmation to your registered email address. Certain data may be retained beyond this period only where required by applicable law or for the resolution of disputes and enforcement of our agreements.
+  </p>
+
+  <h2 class="section-heading">9. Children&#8217;s Privacy</h2>
   <p>
     UrbOVan is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that a child under 13 has provided us with personal data, we will promptly delete such information. If you believe a child has submitted personal information, please contact us immediately.
   </p>
 
-  <h2 class="section-heading">9. Changes to This Privacy Policy</h2>
+  <h2 class="section-heading">10. Changes to This Privacy Policy</h2>
   <p>
     We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected by updating the "Last Updated" date at the top of this document. Continued use of the App following the posting of changes constitutes your acceptance of such changes. We encourage you to review this Policy periodically.
   </p>
 
-  <h2 class="section-heading">10. Contact Us</h2>
+  <h2 class="section-heading">11. Contact Us</h2>
   <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us:</p>
   <p><strong>Application Name:</strong> UrbOVan – Plant Health Tracker</p>
   <p><strong>Email Address:</strong> <a href="mailto:saidarshan9569@gmail.com">saidarshan9569@gmail.com</a></p>
 
   <div class="footer-line">
-    This Privacy Policy is effective as of May 13, 2025. All rights reserved &copy; UrbOVan.
+    This Privacy Policy is effective as of May 13, 2026. All rights reserved &copy; UrbOVan.
   </div>
 
 </div>
